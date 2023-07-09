@@ -9,13 +9,13 @@ spec:
   #   https://github.com/ansible/awx-operator/blob/2.0.0/README.md
   # - AWX: 22.0.0
   #   https://github.com/ansible/awx/blob/22.0.0/INSTALL.md
-
+  service_type: nodeport
   admin_user: admin
   admin_password_secret: awx-admin-password
 
   ingress_type: ingress
   ingress_tls_secret: awx-secret-tls
-  hostname: awx.example.com
+  hostname: awx.csh0101.com
 
   postgres_configuration_secret: awx-postgres-configuration
 
